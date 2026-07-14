@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    transition: .3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
+}
+
+.carousel img{
+    height:500px;
+    object-fit:cover;
+}
+
+footer{
+    margin-top:40px;
+}
